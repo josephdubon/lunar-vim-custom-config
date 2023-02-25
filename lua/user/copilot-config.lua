@@ -27,5 +27,3 @@ lvim.builtin.cmp.mapping["<Tab>"] = function(fallback)
     end
   end
 end
-
-

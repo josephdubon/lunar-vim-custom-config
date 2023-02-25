@@ -10,9 +10,9 @@
 -- Custom User Plugins
 lvim.plugins = {
     -- palenight colortheme
-  {
-    "wilmanbarrios/palenight.nvim",
-  },
+    {
+        "wilmanbarrios/palenight.nvim",
+    },
     -- diagnostics, references, telescope results, quickfix and location lists
     {
         "folke/trouble.nvim",

@@ -1,4 +1,3 @@
-
 -- vimwiki neovim config
 vim.g.vimwiki_list = {
     {
@@ -21,6 +20,3 @@ vim.g.vimwiki_markdown_link_ext = 1 -- add markdown file extension when generati
 vim.g.taskwiki_markdown_syntax = "markdown"
 vim.g.indentLine_conceallevel = 2 -- indentline controlls concel
 --vim.set.o.conceallevel = 1 -- so that I can see `` and full urls in markdown files
-
-
-

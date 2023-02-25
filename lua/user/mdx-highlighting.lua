@@ -1,4 +1,4 @@
--- Let’s configure the nvim-treesitter plugin to use the markdown parser 
+-- Let’s configure the nvim-treesitter plugin to use the markdown parser
 -- for mdx filetypes:
 
 -- MDX Treesitter Config
