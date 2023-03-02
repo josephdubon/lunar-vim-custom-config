@@ -27,3 +27,14 @@ lvim.builtin.cmp.mapping["<Tab>"] = function(fallback)
     end
   end
 end
+
+-- Remap <C-e> to accept the suggestion
+-- lvim.builtin.cmp.mapping["<C-e>"] = function(fallback)
+--   cmp.mapping.abort()
+--   local copilot_keys = vim.fn["copilot#Accept"]()
+--   if copilot_keys ~= "" then
+--     vim.api.nvim_feedkeys(copilot_keys, "i", true)
+--   else
+--     fallback()
+--   end
+-- end
