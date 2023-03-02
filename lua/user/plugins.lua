@@ -335,6 +335,14 @@ lvim.plugins = {
     {
         "vimwiki/vimwiki",
     },
+
+    -- tmux, a terminal multiplexer
+    {
+        "aserowy/tmux.nvim",
+        config = function()
+          return require("tmux").setup()
+        end,
+    },
 }
 
 --
