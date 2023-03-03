@@ -1,10 +1,10 @@
 -- vimwiki neovim config
 vim.g.vimwiki_list = {
-    {
-        path = '~/matrixwiki/',
-        syntax = 'markdown',
-        ext = '.md',
-    },
+  {
+    path = '~/Documents/Personal/Journals/matrixwiki/',
+    syntax = 'markdown',
+    ext = '.md',
+  },
 }
 
 vim.g.vimwiki_ext2syntax = {
