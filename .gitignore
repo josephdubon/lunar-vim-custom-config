@@ -1,4 +1,4 @@
 # System Files and Dirs
 .idea
 .DS_Store
-packer_compiled.lua
+plugin/packer_compiled.lua
