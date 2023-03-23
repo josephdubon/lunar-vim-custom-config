@@ -4,7 +4,7 @@ vim.g.vimwiki_list = {
     path = '~/Documents/iMatrix/matrixwiki/',
     syntax = 'markdown',
     ext = '.md',
-    nested_syntaxes = 'python=python, html=html, css=css, javascript=javascript, json=json, bash=bash, lua=lua, typescript=typescript,'
+    -- nested_syntaxes = 'python=python, html=html, css=css, javascript=javascript, json=json, bash=bash, lua=lua, typescript=typescript,'
   },
 }
 
