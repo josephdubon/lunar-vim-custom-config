@@ -75,7 +75,6 @@ lvim.builtin.treesitter.ensure_installed = {
     "javascript",
     "json",
     "lua",
-    "norg",
     "python",
     "typescript",
     "tsx",
