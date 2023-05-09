@@ -68,10 +68,10 @@ lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 
--- wrap line config
-vim.opt.textwidth = 80
--- Enable line wrapping
-vim.opt.wrap = true
+-- Enable automatic line wrapping based on window width
+vim.opt.wrap = 'auto'
+vim.opt.linebreak = true
+vim.opt.breakindent = true
 
 -- Display wrapped lines with a symbol
 vim.opt.showbreak = '↪ '
